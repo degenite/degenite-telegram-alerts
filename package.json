@@ -1,0 +1,15 @@
+{
+  "name": "degenite-telegram-alerts",
+  "version": "0.1.0",
+  "description": "Unofficial community Telegram bot that sends position/PnL alerts for a DEGENITE-compatible trading API.",
+  "type": "module",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "dependencies": {
+    "degenite-sdk": "^0.1.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "license": "MIT"
+}
